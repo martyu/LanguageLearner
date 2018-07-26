@@ -7,12 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		219167C0FFCA31B9CD5A3FA9 /* Pods_LanguageLearner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34B3ABBAD6A38614EE3382C /* Pods_LanguageLearner.framework */; };
+		760E6E9D210A74030044A19D /* AutoLayoutExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760E6E9C210A74030044A19D /* AutoLayoutExtensions.swift */; };
+		7646D9E0210023E00028D802 /* CharacterDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7646D9DF210023E00028D802 /* CharacterDrawView.swift */; };
+		7646DA10210024240028D802 /* あ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9E2210024240028D802 /* あ.gif */; };
+		7646DA11210024240028D802 /* い.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9E3210024240028D802 /* い.gif */; };
+		7646DA12210024240028D802 /* う.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9E4210024240028D802 /* う.gif */; };
+		7646DA13210024240028D802 /* え.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9E5210024240028D802 /* え.gif */; };
+		7646DA14210024240028D802 /* お.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9E6210024240028D802 /* お.gif */; };
+		7646DA15210024240028D802 /* か.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9E7210024240028D802 /* か.gif */; };
+		7646DA16210024240028D802 /* き.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9E8210024240028D802 /* き.gif */; };
+		7646DA17210024240028D802 /* く.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9E9210024240028D802 /* く.gif */; };
+		7646DA18210024240028D802 /* け.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9EA210024240028D802 /* け.gif */; };
+		7646DA19210024240028D802 /* こ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9EB210024240028D802 /* こ.gif */; };
+		7646DA1A210024240028D802 /* さ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9EC210024240028D802 /* さ.gif */; };
+		7646DA1B210024240028D802 /* し.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9ED210024240028D802 /* し.gif */; };
+		7646DA1C210024240028D802 /* す.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9EE210024240028D802 /* す.gif */; };
+		7646DA1D210024240028D802 /* せ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9EF210024240028D802 /* せ.gif */; };
+		7646DA1E210024240028D802 /* そ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F0210024240028D802 /* そ.gif */; };
+		7646DA1F210024240028D802 /* た.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F1210024240028D802 /* た.gif */; };
+		7646DA20210024240028D802 /* ち.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F2210024240028D802 /* ち.gif */; };
+		7646DA21210024240028D802 /* つ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F3210024240028D802 /* つ.gif */; };
+		7646DA22210024240028D802 /* て.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F4210024240028D802 /* て.gif */; };
+		7646DA23210024240028D802 /* と.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F5210024240028D802 /* と.gif */; };
+		7646DA24210024240028D802 /* な.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F6210024240028D802 /* な.gif */; };
+		7646DA25210024240028D802 /* に.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F7210024240028D802 /* に.gif */; };
+		7646DA26210024240028D802 /* ぬ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F8210024240028D802 /* ぬ.gif */; };
+		7646DA27210024240028D802 /* ね.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9F9210024240028D802 /* ね.gif */; };
+		7646DA28210024240028D802 /* の.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9FA210024240028D802 /* の.gif */; };
+		7646DA29210024240028D802 /* は.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9FB210024240028D802 /* は.gif */; };
+		7646DA2A210024240028D802 /* ひ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9FC210024240028D802 /* ひ.gif */; };
+		7646DA2B210024240028D802 /* ふ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9FD210024240028D802 /* ふ.gif */; };
+		7646DA2C210024240028D802 /* へ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9FE210024240028D802 /* へ.gif */; };
+		7646DA2D210024240028D802 /* ほ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646D9FF210024240028D802 /* ほ.gif */; };
+		7646DA2E210024240028D802 /* ま.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA00210024240028D802 /* ま.gif */; };
+		7646DA2F210024240028D802 /* み.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA01210024240028D802 /* み.gif */; };
+		7646DA30210024240028D802 /* む.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA02210024240028D802 /* む.gif */; };
+		7646DA31210024240028D802 /* め.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA03210024240028D802 /* め.gif */; };
+		7646DA32210024240028D802 /* も.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA04210024240028D802 /* も.gif */; };
+		7646DA33210024240028D802 /* や.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA05210024240028D802 /* や.gif */; };
+		7646DA34210024240028D802 /* ゆ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA06210024240028D802 /* ゆ.gif */; };
+		7646DA35210024240028D802 /* よ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA07210024240028D802 /* よ.gif */; };
+		7646DA36210024240028D802 /* ら.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA08210024240028D802 /* ら.gif */; };
+		7646DA37210024240028D802 /* り.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA09210024240028D802 /* り.gif */; };
+		7646DA38210024240028D802 /* る.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA0A210024240028D802 /* る.gif */; };
+		7646DA39210024240028D802 /* れ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA0B210024240028D802 /* れ.gif */; };
+		7646DA3A210024240028D802 /* ろ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA0C210024240028D802 /* ろ.gif */; };
+		7646DA3B210024240028D802 /* わ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA0D210024240028D802 /* わ.gif */; };
+		7646DA3C210024240028D802 /* を.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA0E210024240028D802 /* を.gif */; };
+		7646DA3D210024240028D802 /* ん.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7646DA0F210024240028D802 /* ん.gif */; };
+		7685C9AE210A506100CD8438 /* CharacterSetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685C9AD210A506100CD8438 /* CharacterSetExtensions.swift */; };
+		7685C9B3210A565B00CD8438 /* StrokeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685C9B2210A565B00CD8438 /* StrokeManager.swift */; };
+		7685C9B5210A601D00CD8438 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685C9B4210A601D00CD8438 /* ArrayExtensions.swift */; };
+		7685C9B7210A604600CD8438 /* CoreGraphicsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685C9B6210A604600CD8438 /* CoreGraphicsExtensions.swift */; };
+		7685C9BC210A614100CD8438 /* LearningFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685C9BB210A614100CD8438 /* LearningFlowController.swift */; };
 		76F02EC620F8242E0069934F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F02EC520F8242E0069934F /* AppDelegate.swift */; };
-		76F02EC820F8242E0069934F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F02EC720F8242E0069934F /* ViewController.swift */; };
+		76F02EC820F8242E0069934F /* DrawingPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F02EC720F8242E0069934F /* DrawingPracticeViewController.swift */; };
 		76F02ECB20F8242E0069934F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F02EC920F8242E0069934F /* Main.storyboard */; };
 		76F02ECD20F8242F0069934F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F02ECC20F8242F0069934F /* Assets.xcassets */; };
 		76F02ED020F8242F0069934F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F02ECE20F8242F0069934F /* LaunchScreen.storyboard */; };
 		76F02EDB20F8242F0069934F /* LanguageLearnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F02EDA20F8242F0069934F /* LanguageLearnerTests.swift */; };
+		76F45BCB210163FB0063433E /* CharacterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F45BCA210163FB0063433E /* CharacterInfo.swift */; };
+		76F45BCD21016CDD0063433E /* CharacterInfoDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F45BCC21016CDD0063433E /* CharacterInfoDataManager.swift */; };
+		76F45BCF21016D080063433E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F45BCE21016D080063433E /* DataManager.swift */; };
+		76F45BD1210177100063433E /* ImageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F45BD0210177100063433E /* ImageDataManager.swift */; };
+		76F45BD42101C3800063433E /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F45BD32101C3800063433E /* DrawingView.swift */; };
+		BF50E16197AFA63B59C7B54C /* Pods_LanguageLearnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6573F129E1F22AA7EF2C5DDA /* Pods_LanguageLearnerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +86,66 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53C2C8C17A33D829EB86CDBE /* Pods-LanguageLearnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageLearnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageLearnerTests/Pods-LanguageLearnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		54CF5DA53702C50E8798A307 /* Pods-LanguageLearnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageLearnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageLearnerTests/Pods-LanguageLearnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		56DE5A147491272925702C15 /* Pods-LanguageLearner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageLearner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageLearner/Pods-LanguageLearner.debug.xcconfig"; sourceTree = "<group>"; };
+		6573F129E1F22AA7EF2C5DDA /* Pods_LanguageLearnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanguageLearnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		760E6E9C210A74030044A19D /* AutoLayoutExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutExtensions.swift; sourceTree = "<group>"; };
+		7646D9DF210023E00028D802 /* CharacterDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDrawView.swift; sourceTree = "<group>"; };
+		7646D9E2210024240028D802 /* あ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "あ.gif"; sourceTree = "<group>"; };
+		7646D9E3210024240028D802 /* い.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "い.gif"; sourceTree = "<group>"; };
+		7646D9E4210024240028D802 /* う.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "う.gif"; sourceTree = "<group>"; };
+		7646D9E5210024240028D802 /* え.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "え.gif"; sourceTree = "<group>"; };
+		7646D9E6210024240028D802 /* お.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "お.gif"; sourceTree = "<group>"; };
+		7646D9E7210024240028D802 /* か.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "か.gif"; sourceTree = "<group>"; };
+		7646D9E8210024240028D802 /* き.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "き.gif"; sourceTree = "<group>"; };
+		7646D9E9210024240028D802 /* く.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "く.gif"; sourceTree = "<group>"; };
+		7646D9EA210024240028D802 /* け.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "け.gif"; sourceTree = "<group>"; };
+		7646D9EB210024240028D802 /* こ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "こ.gif"; sourceTree = "<group>"; };
+		7646D9EC210024240028D802 /* さ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "さ.gif"; sourceTree = "<group>"; };
+		7646D9ED210024240028D802 /* し.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "し.gif"; sourceTree = "<group>"; };
+		7646D9EE210024240028D802 /* す.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "す.gif"; sourceTree = "<group>"; };
+		7646D9EF210024240028D802 /* せ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "せ.gif"; sourceTree = "<group>"; };
+		7646D9F0210024240028D802 /* そ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "そ.gif"; sourceTree = "<group>"; };
+		7646D9F1210024240028D802 /* た.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "た.gif"; sourceTree = "<group>"; };
+		7646D9F2210024240028D802 /* ち.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ち.gif"; sourceTree = "<group>"; };
+		7646D9F3210024240028D802 /* つ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "つ.gif"; sourceTree = "<group>"; };
+		7646D9F4210024240028D802 /* て.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "て.gif"; sourceTree = "<group>"; };
+		7646D9F5210024240028D802 /* と.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "と.gif"; sourceTree = "<group>"; };
+		7646D9F6210024240028D802 /* な.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "な.gif"; sourceTree = "<group>"; };
+		7646D9F7210024240028D802 /* に.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "に.gif"; sourceTree = "<group>"; };
+		7646D9F8210024240028D802 /* ぬ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ぬ.gif"; sourceTree = "<group>"; };
+		7646D9F9210024240028D802 /* ね.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ね.gif"; sourceTree = "<group>"; };
+		7646D9FA210024240028D802 /* の.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "の.gif"; sourceTree = "<group>"; };
+		7646D9FB210024240028D802 /* は.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "は.gif"; sourceTree = "<group>"; };
+		7646D9FC210024240028D802 /* ひ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ひ.gif"; sourceTree = "<group>"; };
+		7646D9FD210024240028D802 /* ふ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ふ.gif"; sourceTree = "<group>"; };
+		7646D9FE210024240028D802 /* へ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "へ.gif"; sourceTree = "<group>"; };
+		7646D9FF210024240028D802 /* ほ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ほ.gif"; sourceTree = "<group>"; };
+		7646DA00210024240028D802 /* ま.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ま.gif"; sourceTree = "<group>"; };
+		7646DA01210024240028D802 /* み.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "み.gif"; sourceTree = "<group>"; };
+		7646DA02210024240028D802 /* む.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "む.gif"; sourceTree = "<group>"; };
+		7646DA03210024240028D802 /* め.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "め.gif"; sourceTree = "<group>"; };
+		7646DA04210024240028D802 /* も.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "も.gif"; sourceTree = "<group>"; };
+		7646DA05210024240028D802 /* や.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "や.gif"; sourceTree = "<group>"; };
+		7646DA06210024240028D802 /* ゆ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ゆ.gif"; sourceTree = "<group>"; };
+		7646DA07210024240028D802 /* よ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "よ.gif"; sourceTree = "<group>"; };
+		7646DA08210024240028D802 /* ら.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ら.gif"; sourceTree = "<group>"; };
+		7646DA09210024240028D802 /* り.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "り.gif"; sourceTree = "<group>"; };
+		7646DA0A210024240028D802 /* る.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "る.gif"; sourceTree = "<group>"; };
+		7646DA0B210024240028D802 /* れ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "れ.gif"; sourceTree = "<group>"; };
+		7646DA0C210024240028D802 /* ろ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ろ.gif"; sourceTree = "<group>"; };
+		7646DA0D210024240028D802 /* わ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "わ.gif"; sourceTree = "<group>"; };
+		7646DA0E210024240028D802 /* を.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "を.gif"; sourceTree = "<group>"; };
+		7646DA0F210024240028D802 /* ん.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ん.gif"; sourceTree = "<group>"; };
+		7685C9AD210A506100CD8438 /* CharacterSetExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSetExtensions.swift; sourceTree = "<group>"; };
+		7685C9B2210A565B00CD8438 /* StrokeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeManager.swift; sourceTree = "<group>"; };
+		7685C9B4210A601D00CD8438 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		7685C9B6210A604600CD8438 /* CoreGraphicsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsExtensions.swift; sourceTree = "<group>"; };
+		7685C9BB210A614100CD8438 /* LearningFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningFlowController.swift; sourceTree = "<group>"; };
 		76F02EC220F8242E0069934F /* LanguageLearner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageLearner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F02EC520F8242E0069934F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76F02EC720F8242E0069934F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76F02EC720F8242E0069934F /* DrawingPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPracticeViewController.swift; sourceTree = "<group>"; };
 		76F02ECA20F8242E0069934F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76F02ECC20F8242F0069934F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76F02ECF20F8242F0069934F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +153,13 @@
 		76F02ED620F8242F0069934F /* LanguageLearnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageLearnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F02EDA20F8242F0069934F /* LanguageLearnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLearnerTests.swift; sourceTree = "<group>"; };
 		76F02EDC20F8242F0069934F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F45BCA210163FB0063433E /* CharacterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfo.swift; sourceTree = "<group>"; };
+		76F45BCC21016CDD0063433E /* CharacterInfoDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfoDataManager.swift; sourceTree = "<group>"; };
+		76F45BCE21016D080063433E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		76F45BD0210177100063433E /* ImageDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataManager.swift; sourceTree = "<group>"; };
+		76F45BD32101C3800063433E /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		91BD4F5FDB75D42F81428629 /* Pods-LanguageLearner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageLearner.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageLearner/Pods-LanguageLearner.release.xcconfig"; sourceTree = "<group>"; };
+		B34B3ABBAD6A38614EE3382C /* Pods_LanguageLearner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanguageLearner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219167C0FFCA31B9CD5A3FA9 /* Pods_LanguageLearner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +175,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF50E16197AFA63B59C7B54C /* Pods_LanguageLearnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		760E6E9B210A6FA00044A19D /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				76F45BCA210163FB0063433E /* CharacterInfo.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		7646D9E1210024240028D802 /* hiragana-characters */ = {
+			isa = PBXGroup;
+			children = (
+				7646D9E2210024240028D802 /* あ.gif */,
+				7646D9E3210024240028D802 /* い.gif */,
+				7646D9E4210024240028D802 /* う.gif */,
+				7646D9E5210024240028D802 /* え.gif */,
+				7646D9E6210024240028D802 /* お.gif */,
+				7646D9E7210024240028D802 /* か.gif */,
+				7646D9E8210024240028D802 /* き.gif */,
+				7646D9E9210024240028D802 /* く.gif */,
+				7646D9EA210024240028D802 /* け.gif */,
+				7646D9EB210024240028D802 /* こ.gif */,
+				7646D9EC210024240028D802 /* さ.gif */,
+				7646D9ED210024240028D802 /* し.gif */,
+				7646D9EE210024240028D802 /* す.gif */,
+				7646D9EF210024240028D802 /* せ.gif */,
+				7646D9F0210024240028D802 /* そ.gif */,
+				7646D9F1210024240028D802 /* た.gif */,
+				7646D9F2210024240028D802 /* ち.gif */,
+				7646D9F3210024240028D802 /* つ.gif */,
+				7646D9F4210024240028D802 /* て.gif */,
+				7646D9F5210024240028D802 /* と.gif */,
+				7646D9F6210024240028D802 /* な.gif */,
+				7646D9F7210024240028D802 /* に.gif */,
+				7646D9F8210024240028D802 /* ぬ.gif */,
+				7646D9F9210024240028D802 /* ね.gif */,
+				7646D9FA210024240028D802 /* の.gif */,
+				7646D9FB210024240028D802 /* は.gif */,
+				7646D9FC210024240028D802 /* ひ.gif */,
+				7646D9FD210024240028D802 /* ふ.gif */,
+				7646D9FE210024240028D802 /* へ.gif */,
+				7646D9FF210024240028D802 /* ほ.gif */,
+				7646DA00210024240028D802 /* ま.gif */,
+				7646DA01210024240028D802 /* み.gif */,
+				7646DA02210024240028D802 /* む.gif */,
+				7646DA03210024240028D802 /* め.gif */,
+				7646DA04210024240028D802 /* も.gif */,
+				7646DA05210024240028D802 /* や.gif */,
+				7646DA06210024240028D802 /* ゆ.gif */,
+				7646DA07210024240028D802 /* よ.gif */,
+				7646DA08210024240028D802 /* ら.gif */,
+				7646DA09210024240028D802 /* り.gif */,
+				7646DA0A210024240028D802 /* る.gif */,
+				7646DA0B210024240028D802 /* れ.gif */,
+				7646DA0C210024240028D802 /* ろ.gif */,
+				7646DA0D210024240028D802 /* わ.gif */,
+				7646DA0E210024240028D802 /* を.gif */,
+				7646DA0F210024240028D802 /* ん.gif */,
+			);
+			path = "hiragana-characters";
+			sourceTree = "<group>";
+		};
+		7685C9B1210A507500CD8438 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7685C9AD210A506100CD8438 /* CharacterSetExtensions.swift */,
+				7685C9B4210A601D00CD8438 /* ArrayExtensions.swift */,
+				7685C9B6210A604600CD8438 /* CoreGraphicsExtensions.swift */,
+				760E6E9C210A74030044A19D /* AutoLayoutExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7685C9BA210A60F600CD8438 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7685C9BB210A614100CD8438 /* LearningFlowController.swift */,
+				76F02EC720F8242E0069934F /* DrawingPracticeViewController.swift */,
+				7646D9DF210023E00028D802 /* CharacterDrawView.swift */,
+				76F45BD32101C3800063433E /* DrawingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		76F02EB920F8242E0069934F = {
 			isa = PBXGroup;
 			children = (
 				76F02EC420F8242E0069934F /* LanguageLearner */,
 				76F02ED920F8242F0069934F /* LanguageLearnerTests */,
 				76F02EC320F8242E0069934F /* Products */,
+				DCFB7666917D0E589065EBBC /* Pods */,
+				FB2E8D7543C98517C7401522 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +289,15 @@
 			isa = PBXGroup;
 			children = (
 				76F02EC520F8242E0069934F /* AppDelegate.swift */,
-				76F02EC720F8242E0069934F /* ViewController.swift */,
+				7685C9BA210A60F600CD8438 /* Views */,
+				7685C9B1210A507500CD8438 /* Extensions */,
+				76F45BD2210177200063433E /* Data Managers */,
+				760E6E9B210A6FA00044A19D /* DataModels */,
 				76F02EC920F8242E0069934F /* Main.storyboard */,
 				76F02ECC20F8242F0069934F /* Assets.xcassets */,
 				76F02ECE20F8242F0069934F /* LaunchScreen.storyboard */,
 				76F02ED120F8242F0069934F /* Info.plist */,
+				7646D9E1210024240028D802 /* hiragana-characters */,
 			);
 			path = LanguageLearner;
 			sourceTree = "<group>";
@@ -96,6 +311,37 @@
 			path = LanguageLearnerTests;
 			sourceTree = "<group>";
 		};
+		76F45BD2210177200063433E /* Data Managers */ = {
+			isa = PBXGroup;
+			children = (
+				76F45BCE21016D080063433E /* DataManager.swift */,
+				76F45BD0210177100063433E /* ImageDataManager.swift */,
+				76F45BCC21016CDD0063433E /* CharacterInfoDataManager.swift */,
+				7685C9B2210A565B00CD8438 /* StrokeManager.swift */,
+			);
+			path = "Data Managers";
+			sourceTree = "<group>";
+		};
+		DCFB7666917D0E589065EBBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56DE5A147491272925702C15 /* Pods-LanguageLearner.debug.xcconfig */,
+				91BD4F5FDB75D42F81428629 /* Pods-LanguageLearner.release.xcconfig */,
+				53C2C8C17A33D829EB86CDBE /* Pods-LanguageLearnerTests.debug.xcconfig */,
+				54CF5DA53702C50E8798A307 /* Pods-LanguageLearnerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB2E8D7543C98517C7401522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B34B3ABBAD6A38614EE3382C /* Pods_LanguageLearner.framework */,
+				6573F129E1F22AA7EF2C5DDA /* Pods_LanguageLearnerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +349,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76F02EDF20F8242F0069934F /* Build configuration list for PBXNativeTarget "LanguageLearner" */;
 			buildPhases = (
+				7F274FD931F828BB600D0C12 /* [CP] Check Pods Manifest.lock */,
 				76F02EBE20F8242E0069934F /* Sources */,
 				76F02EBF20F8242E0069934F /* Frameworks */,
 				76F02EC020F8242E0069934F /* Resources */,
+				B0EEE571E94838901444F638 /* [CP] Embed Pods Frameworks */,
+				A20AF609F82936AFA047A817 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +369,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76F02EE220F8242F0069934F /* Build configuration list for PBXNativeTarget "LanguageLearnerTests" */;
 			buildPhases = (
+				04DF6B0FF475D8FF860E8009 /* [CP] Check Pods Manifest.lock */,
 				76F02ED220F8242F0069934F /* Sources */,
 				76F02ED320F8242F0069934F /* Frameworks */,
 				76F02ED420F8242F0069934F /* Resources */,
+				0D6EB28130173AB364970DD4 /* [CP] Embed Pods Frameworks */,
+				B24386D6EFEE805DA8E9BBDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +429,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7646DA38210024240028D802 /* る.gif in Resources */,
+				7646DA2D210024240028D802 /* ほ.gif in Resources */,
+				7646DA21210024240028D802 /* つ.gif in Resources */,
+				7646DA2F210024240028D802 /* み.gif in Resources */,
+				7646DA35210024240028D802 /* よ.gif in Resources */,
+				7646DA2C210024240028D802 /* へ.gif in Resources */,
+				7646DA1E210024240028D802 /* そ.gif in Resources */,
+				7646DA17210024240028D802 /* く.gif in Resources */,
+				7646DA3A210024240028D802 /* ろ.gif in Resources */,
+				7646DA2A210024240028D802 /* ひ.gif in Resources */,
+				7646DA32210024240028D802 /* も.gif in Resources */,
+				7646DA24210024240028D802 /* な.gif in Resources */,
+				7646DA15210024240028D802 /* か.gif in Resources */,
+				7646DA30210024240028D802 /* む.gif in Resources */,
+				7646DA1C210024240028D802 /* す.gif in Resources */,
+				7646DA13210024240028D802 /* え.gif in Resources */,
+				7646DA1B210024240028D802 /* し.gif in Resources */,
+				7646DA25210024240028D802 /* に.gif in Resources */,
 				76F02ED020F8242F0069934F /* LaunchScreen.storyboard in Resources */,
+				7646DA1A210024240028D802 /* さ.gif in Resources */,
+				7646DA36210024240028D802 /* ら.gif in Resources */,
+				7646DA3B210024240028D802 /* わ.gif in Resources */,
+				7646DA31210024240028D802 /* め.gif in Resources */,
+				7646DA2B210024240028D802 /* ふ.gif in Resources */,
+				7646DA11210024240028D802 /* い.gif in Resources */,
+				7646DA14210024240028D802 /* お.gif in Resources */,
+				7646DA33210024240028D802 /* や.gif in Resources */,
+				7646DA3C210024240028D802 /* を.gif in Resources */,
+				7646DA22210024240028D802 /* て.gif in Resources */,
+				7646DA34210024240028D802 /* ゆ.gif in Resources */,
+				7646DA18210024240028D802 /* け.gif in Resources */,
+				7646DA27210024240028D802 /* ね.gif in Resources */,
 				76F02ECD20F8242F0069934F /* Assets.xcassets in Resources */,
+				7646DA12210024240028D802 /* う.gif in Resources */,
+				7646DA26210024240028D802 /* ぬ.gif in Resources */,
 				76F02ECB20F8242E0069934F /* Main.storyboard in Resources */,
+				7646DA1D210024240028D802 /* せ.gif in Resources */,
+				7646DA16210024240028D802 /* き.gif in Resources */,
+				7646DA1F210024240028D802 /* た.gif in Resources */,
+				7646DA39210024240028D802 /* れ.gif in Resources */,
+				7646DA28210024240028D802 /* の.gif in Resources */,
+				7646DA29210024240028D802 /* は.gif in Resources */,
+				7646DA10210024240028D802 /* あ.gif in Resources */,
+				7646DA20210024240028D802 /* ち.gif in Resources */,
+				7646DA37210024240028D802 /* り.gif in Resources */,
+				7646DA19210024240028D802 /* こ.gif in Resources */,
+				7646DA23210024240028D802 /* と.gif in Resources */,
+				7646DA2E210024240028D802 /* ま.gif in Resources */,
+				7646DA3D210024240028D802 /* ん.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +490,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04DF6B0FF475D8FF860E8009 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LanguageLearnerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D6EB28130173AB364970DD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageLearnerTests/Pods-LanguageLearnerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F274FD931F828BB600D0C12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LanguageLearner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20AF609F82936AFA047A817 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageLearner/Pods-LanguageLearner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0EEE571E94838901444F638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LanguageLearner/Pods-LanguageLearner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageLearner/Pods-LanguageLearner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24386D6EFEE805DA8E9BBDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageLearnerTests/Pods-LanguageLearnerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76F02EBE20F8242E0069934F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F02EC820F8242E0069934F /* ViewController.swift in Sources */,
+				76F02EC820F8242E0069934F /* DrawingPracticeViewController.swift in Sources */,
+				76F45BCF21016D080063433E /* DataManager.swift in Sources */,
+				7685C9BC210A614100CD8438 /* LearningFlowController.swift in Sources */,
+				7685C9AE210A506100CD8438 /* CharacterSetExtensions.swift in Sources */,
+				76F45BCD21016CDD0063433E /* CharacterInfoDataManager.swift in Sources */,
+				76F45BD42101C3800063433E /* DrawingView.swift in Sources */,
+				7685C9B7210A604600CD8438 /* CoreGraphicsExtensions.swift in Sources */,
+				76F45BD1210177100063433E /* ImageDataManager.swift in Sources */,
+				7646D9E0210023E00028D802 /* CharacterDrawView.swift in Sources */,
+				7685C9B5210A601D00CD8438 /* ArrayExtensions.swift in Sources */,
+				760E6E9D210A74030044A19D /* AutoLayoutExtensions.swift in Sources */,
+				7685C9B3210A565B00CD8438 /* StrokeManager.swift in Sources */,
 				76F02EC620F8242E0069934F /* AppDelegate.swift in Sources */,
+				76F45BCB210163FB0063433E /* CharacterInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +770,7 @@
 		};
 		76F02EE020F8242F0069934F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DE5A147491272925702C15 /* Pods-LanguageLearner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +789,7 @@
 		};
 		76F02EE120F8242F0069934F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BD4F5FDB75D42F81428629 /* Pods-LanguageLearner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +808,7 @@
 		};
 		76F02EE320F8242F0069934F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C2C8C17A33D829EB86CDBE /* Pods-LanguageLearnerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -413,6 +830,7 @@
 		};
 		76F02EE420F8242F0069934F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CF5DA53702C50E8798A307 /* Pods-LanguageLearnerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
